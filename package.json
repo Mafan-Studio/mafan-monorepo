@@ -1,0 +1,15 @@
+{
+  "name": "mafan-monorepo",
+  "private": true,
+  "packageManager": "pnpm@12.4.1",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "dev:web": "pnpm --filter @mafan/web dev",
+    "dev:admin": "pnpm --filter @mafan/admin dev",
+    "build": "pnpm -r build",
+    "lint": "pnpm -r lint",
+    "typecheck": "pnpm -r typecheck"
+  }
+}
