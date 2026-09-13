@@ -6,8 +6,8 @@ export const App = () => {
       <Stack align="center" gap="xs">
         <Title order={1}>Mafan Admin</Title>
         <Text c="dimmed" ta="center">
-          Nothing to manage yet — the admin panel starts filling in from
-          Phase 2 (project review, quotes, production board).
+          Nothing to manage yet — the admin panel starts filling in from Phase 2
+          (project review, quotes, production board).
         </Text>
       </Stack>
     </Container>

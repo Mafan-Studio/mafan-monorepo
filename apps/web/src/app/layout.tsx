@@ -1,14 +1,17 @@
 import type { Metadata } from "next";
-import { Jost } from "next/font/google";
-import { ColorSchemeScript, MantineProvider, mantineHtmlProps } from "@mantine/core";
+import {
+  ColorSchemeScript,
+  MantineProvider,
+  mantineHtmlProps,
+} from "@mantine/core";
 import "@mantine/core/styles.css";
-import "./globals.css";
+import "@fontsource/fredoka/300.css";
+import "@fontsource/fredoka/400.css";
+import "@fontsource/fredoka/500.css";
+import "@fontsource/fredoka/600.css";
+import "@fontsource/fredoka/700.css";
+import "@mafan/ui/global.css";
 import { theme } from "@/theme";
-
-const jost = Jost({
-  subsets: ["latin"],
-  variable: "--font-jost",
-});
 
 export const metadata: Metadata = {
   title: "Mafan Studio",
@@ -17,7 +20,7 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
-    <html lang="en" className={jost.variable} {...mantineHtmlProps}>
+    <html lang="en" {...mantineHtmlProps}>
       <head>
         <ColorSchemeScript defaultColorScheme="light" />
       </head>

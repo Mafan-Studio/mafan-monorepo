@@ -63,7 +63,10 @@ export const InquiryForm = () => {
               required
               value={form.name}
               onChange={(event) =>
-                setForm((prev) => ({ ...prev, name: event.currentTarget.value }))
+                setForm((prev) => ({
+                  ...prev,
+                  name: event.currentTarget.value,
+                }))
               }
             />
             <TextInput
@@ -72,14 +75,20 @@ export const InquiryForm = () => {
               required
               value={form.email}
               onChange={(event) =>
-                setForm((prev) => ({ ...prev, email: event.currentTarget.value }))
+                setForm((prev) => ({
+                  ...prev,
+                  email: event.currentTarget.value,
+                }))
               }
             />
             <TextInput
               label="Child's first name (optional)"
               value={form.childName}
               onChange={(event) =>
-                setForm((prev) => ({ ...prev, childName: event.currentTarget.value }))
+                setForm((prev) => ({
+                  ...prev,
+                  childName: event.currentTarget.value,
+                }))
               }
             />
             <Textarea
@@ -89,7 +98,10 @@ export const InquiryForm = () => {
               minRows={3}
               value={form.message}
               onChange={(event) =>
-                setForm((prev) => ({ ...prev, message: event.currentTarget.value }))
+                setForm((prev) => ({
+                  ...prev,
+                  message: event.currentTarget.value,
+                }))
               }
             />
             {status === "error" && (
@@ -97,7 +109,11 @@ export const InquiryForm = () => {
                 Please try again or email us directly.
               </Alert>
             )}
-            <Button type="submit" color="pink" loading={status === "submitting"}>
+            <Button
+              type="submit"
+              color="pink"
+              loading={status === "submitting"}
+            >
               Submit
             </Button>
           </Stack>

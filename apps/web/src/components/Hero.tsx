@@ -18,8 +18,8 @@ export const Hero = () => {
             Kids draw it. We bring it to life.
           </Title>
           <Text ta="center" c={colors.neutral.secondaryInk} size="lg">
-            Mafan Studio turns a child&apos;s drawing into a custom 3D
-            keepsake &mdash; and prints ready-made pieces for the home.
+            Mafan Studio turns a child&apos;s drawing into a custom 3D keepsake
+            &mdash; and prints ready-made pieces for the home.
           </Text>
           <Group mt="md">
             <Button component="a" href="#inquiry" color="pink" size="md">

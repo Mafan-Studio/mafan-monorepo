@@ -46,22 +46,22 @@ export const toMantineShades = (
   soft: string,
   base: string,
   deep: string = base,
-): [string, string, string, string, string, string, string, string, string, string] => [
-  soft,
-  soft,
-  soft,
-  soft,
-  base,
-  base,
-  base,
-  deep,
-  deep,
-  deep,
-];
+): [
+  string,
+  string,
+  string,
+  string,
+  string,
+  string,
+  string,
+  string,
+  string,
+  string,
+] => [soft, soft, soft, soft, base, base, base, deep, deep, deep];
 
 export const fonts = {
-  body: "'Jost', sans-serif",
-  heading: "'Jost', sans-serif",
+  body: "'Fredoka', sans-serif",
+  heading: "'Fredoka', sans-serif",
 } as const;
 
 export const spacing = {

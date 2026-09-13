@@ -1,0 +1,11 @@
+node_modules
+.next
+dist
+out
+build
+.turbo
+coverage
+pnpm-lock.yaml
+*.tsbuildinfo
+.env*
+apps/web/src/pages
