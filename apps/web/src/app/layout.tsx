@@ -12,6 +12,7 @@ import "@fontsource/fredoka/600.css";
 import "@fontsource/fredoka/700.css";
 import "@mafan/ui/global.css";
 import { theme } from "@/theme";
+import { EmotionRegistry } from "@/lib/EmotionRegistry";
 
 export const metadata: Metadata = {
   title: "Mafan Studio",
@@ -25,9 +26,11 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
         <ColorSchemeScript defaultColorScheme="light" />
       </head>
       <body>
-        <MantineProvider theme={theme} defaultColorScheme="light">
-          {children}
-        </MantineProvider>
+        <EmotionRegistry>
+          <MantineProvider theme={theme} defaultColorScheme="light">
+            {children}
+          </MantineProvider>
+        </EmotionRegistry>
       </body>
     </html>
   );

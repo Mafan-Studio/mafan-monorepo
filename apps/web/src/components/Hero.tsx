@@ -21,11 +21,6 @@ export const Hero = () => {
             Mafan Studio turns a child&apos;s drawing into a custom 3D keepsake
             &mdash; and prints ready-made pieces for the home.
           </Text>
-          <Group mt="md">
-            <Button component="a" href="#inquiry" color="pink" size="md">
-              Turn a Drawing into 3D
-            </Button>
-          </Group>
         </Stack>
       </Container>
     </HeroSection>
