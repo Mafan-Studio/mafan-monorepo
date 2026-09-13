@@ -8,7 +8,8 @@
     "start": "next start",
     "lint": "eslint",
     "typecheck": "tsc --noEmit",
-    "test": "echo 'no tests configured yet for @mafan/web' && exit 0"
+    "test": "vitest run",
+    "test:e2e": "playwright test"
   },
   "dependencies": {
     "@emotion/cache": "^11.14.0",
@@ -19,6 +20,7 @@
     "@mafan/types": "workspace:*",
     "@mafan/ui": "workspace:*",
     "@mantine/core": "^7.17.0",
+    "@mantine/form": "^7.17.8",
     "@mantine/hooks": "^7.17.0",
     "@supabase/supabase-js": "^2.116.0",
     "next": "16.3.4",
@@ -27,13 +29,19 @@
     "server-only": "^0.0.1"
   },
   "devDependencies": {
-    "@types/node": "^20",
+    "@playwright/test": "^1.63.0",
+    "@testing-library/jest-dom": "^7.0.1",
+    "@testing-library/react": "^16.3.3",
+    "@types/node": "^22.20.2",
     "@types/react": "^19",
     "@types/react-dom": "^19",
+    "@vitejs/plugin-react": "^6.1.1",
     "eslint": "^9",
     "eslint-config-next": "16.3.4",
     "eslint-config-prettier": "^10.1.8",
-    "typescript": "^5"
+    "happy-dom": "^20.14.5",
+    "typescript": "^5",
+    "vitest": "^5.0.0"
   },
   "packageManager": "pnpm@12.4.1"
 }

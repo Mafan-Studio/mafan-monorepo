@@ -1,4 +1,4 @@
-.PHONY: install-all run-all web-run admin-run web-install admin-install web-test admin-test
+.PHONY: install-all run-all web-run admin-run web-install admin-install web-test admin-test web-automated-test
 
 install-all:
 	pnpm install
@@ -13,6 +13,9 @@ web-run:
 
 web-test:
 	pnpm --filter @mafan/web test
+
+web-automated-test:
+	pnpm --filter @mafan/web test:e2e
 
 web-install:
 	pnpm install --filter @mafan/web...
