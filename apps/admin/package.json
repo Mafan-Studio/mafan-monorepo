@@ -19,7 +19,9 @@
     "@mafan/types": "workspace:*",
     "@mafan/ui": "workspace:*",
     "@mantine/core": "^7.17.0",
+    "@mantine/form": "^7.17.8",
     "@mantine/hooks": "^7.17.0",
+    "@supabase/supabase-js": "^2.116.0",
     "react": "^19.2.8",
     "react-dom": "^19.2.8"
   },

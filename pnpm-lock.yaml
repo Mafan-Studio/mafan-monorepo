@@ -199,9 +199,15 @@ importers:
       '@mantine/core':
         specifier: ^7.17.0
         version: 7.17.8(@mantine/hooks@7.17.8(react@19.2.8))(@types/react@19.3.0)(react-dom@19.2.8(react@19.2.8))(react@19.2.8)
+      '@mantine/form':
+        specifier: ^7.17.8
+        version: 7.17.8(react@19.2.8)
       '@mantine/hooks':
         specifier: ^7.17.0
         version: 7.17.8(react@19.2.8)
+      '@supabase/supabase-js':
+        specifier: ^2.116.0
+        version: 2.116.0
       react:
         specifier: ^19.2.8
         version: 19.2.8
