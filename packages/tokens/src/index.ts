@@ -1,12 +1,63 @@
 export const colors = {
-  black: "#0A0A0A",
-  white: "#FFFFFF",
-  offWhite: "#F7F6F3",
-  gray100: "#EFEDE9",
-  gray300: "#D8D5CF",
-  gray500: "#9A968D",
-  gray700: "#5C594F",
+  brand: {
+    pink: "#F6A9C4",
+    yellow: "#F7CF61",
+    blue: "#A9DCE5",
+    ink: "#171717",
+    warmWhite: "#FFFCF8",
+  },
+  pink: {
+    soft: "#FDE4ED",
+    base: "#F6A9C4",
+    deep: "#D96D95",
+  },
+  yellow: {
+    soft: "#FFF2BD",
+    base: "#F7CF61",
+  },
+  blue: {
+    soft: "#E1F4F7",
+    base: "#A9DCE5",
+  },
+  neutral: {
+    ink: "#171717",
+    secondaryInk: "#45413F",
+    white: "#FFFFFF",
+    warmWhite: "#FFFCF8",
+    warmCream: "#FFF6EE",
+    border: "#E8DED5",
+  },
+  success: {
+    base: "#274C3A",
+    soft: "#E2EEE8",
+  },
+  error: {
+    base: "#C84B55",
+    soft: "#FBE7E9",
+  },
 } as const;
+
+/**
+ * Mantine's theme.colors needs exactly 10 shades per color. We only have
+ * 2-3 real shades per brand color, so this repeats them into slots rather
+ * than inventing intermediate hex values.
+ */
+export const toMantineShades = (
+  soft: string,
+  base: string,
+  deep: string = base,
+): [string, string, string, string, string, string, string, string, string, string] => [
+  soft,
+  soft,
+  soft,
+  soft,
+  base,
+  base,
+  base,
+  deep,
+  deep,
+  deep,
+];
 
 export const fonts = {
   body: "'Jost', sans-serif",

@@ -1,24 +1,18 @@
 import { createTheme } from "@mantine/core";
-import { colors, fonts } from "@mafan/tokens";
+import { colors, fonts, toMantineShades } from "@mafan/tokens";
 
 export const theme = createTheme({
-  primaryColor: "dark",
+  primaryColor: "pink",
+  autoContrast: true,
   colors: {
-    dark: [
-      colors.offWhite,
-      colors.gray100,
-      colors.gray300,
-      colors.gray500,
-      colors.gray700,
-      colors.black,
-      colors.black,
-      colors.black,
-      colors.black,
-      colors.black,
-    ],
+    pink: toMantineShades(colors.pink.soft, colors.pink.base, colors.pink.deep),
+    yellow: toMantineShades(colors.yellow.soft, colors.yellow.base),
+    blue: toMantineShades(colors.blue.soft, colors.blue.base),
+    success: toMantineShades(colors.success.soft, colors.success.base),
+    error: toMantineShades(colors.error.soft, colors.error.base),
   },
-  white: colors.white,
-  black: colors.black,
+  white: colors.neutral.white,
+  black: colors.neutral.ink,
   fontFamily: fonts.body,
   headings: { fontFamily: fonts.heading },
   defaultRadius: "sm",

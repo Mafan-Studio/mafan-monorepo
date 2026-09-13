@@ -52,7 +52,7 @@ export const InquiryForm = () => {
       </Title>
 
       {status === "success" ? (
-        <Alert color="green" title="We've received your drawing!">
+        <Alert color="success" title="We've received your drawing!">
           Mafan will review it and get back to you with a quote soon.
         </Alert>
       ) : (
@@ -93,11 +93,11 @@ export const InquiryForm = () => {
               }
             />
             {status === "error" && (
-              <Alert color="red" title="Something went wrong">
+              <Alert color="error" title="Something went wrong">
                 Please try again or email us directly.
               </Alert>
             )}
-            <Button type="submit" color="dark" loading={status === "submitting"}>
+            <Button type="submit" color="pink" loading={status === "submitting"}>
               Submit
             </Button>
           </Stack>
