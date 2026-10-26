@@ -31,7 +31,7 @@ const LabelledImage = ({ src, alt, label }: LabelledImageProps) => (
       alt={alt}
       radius="md"
       fit="cover"
-      style={{ aspectRatio: "1" }}
+      style={{ aspectRatio: "4 / 5" }}
     />
     <Text size="sm" c={colors.neutral.secondaryInk} ta="center">
       {label}

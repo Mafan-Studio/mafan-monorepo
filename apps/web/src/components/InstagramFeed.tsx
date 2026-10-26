@@ -90,6 +90,12 @@ export const InstagramFeed = ({ posts, strings }: InstagramFeedProps) => (
           color="dark"
           radius="xl"
           leftSection={<InstagramIcon size={18} />}
+          // The follow text is a full sentence; let it wrap on phones
+          // instead of pushing the page wider than the screen.
+          h="auto"
+          py={10}
+          maw="100%"
+          styles={{ label: { whiteSpace: "normal", textAlign: "center" } }}
         >
           {strings.follow}
         </Button>

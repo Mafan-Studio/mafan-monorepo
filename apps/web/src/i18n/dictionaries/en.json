@@ -40,11 +40,11 @@
         "sculptureAlt": "A 3D rainbow cat keepsake created and hand-painted from a child's drawing",
         "name": "Rainbow cat"
       },
-      "gecko": {
-        "caption": "A colourful gecko brought to life",
-        "drawingAlt": "A child's drawing of a colourful gecko",
-        "sculptureAlt": "A 3D gecko keepsake created and hand-painted from a child's drawing",
-        "name": "Gecko"
+      "fox": {
+        "caption": "A fox with big ears and a bigger personality",
+        "drawingAlt": "A child's drawing of an orange fox",
+        "sculptureAlt": "A 3D fox keepsake created and hand-painted from a child's drawing",
+        "name": "Fox"
       }
     },
     "compareLabel": "Drag to compare the drawing and the keepsake"

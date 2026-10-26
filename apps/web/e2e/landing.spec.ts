@@ -32,9 +32,14 @@ test.describe("Landing page", () => {
     await formLink.click();
     await expect(page.locator("#inquiry")).toBeInViewport();
 
-    const dmLink = page.getByRole("link", { name: en.hero.ctaInstagram });
-    await expect(dmLink).toHaveAttribute("href", INSTAGRAM_DM_URL);
-    await expect(dmLink).toHaveAttribute("target", "_blank");
+    // The contact section's DM button can share this label; all of them
+    // must open the DM.
+    const dmLinks = page.getByRole("link", { name: en.hero.ctaInstagram });
+    expect(await dmLinks.count()).toBeGreaterThan(0);
+    for (const dmLink of await dmLinks.all()) {
+      await expect(dmLink).toHaveAttribute("href", INSTAGRAM_DM_URL);
+      await expect(dmLink).toHaveAttribute("target", "_blank");
+    }
   });
 
   test("shows three drawing/keepsake pairs, drawing first", async ({

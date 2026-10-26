@@ -2,23 +2,23 @@
 // page. Captions and alt text live in the dictionaries under
 // `showcase.items.<slug>`.
 //
-// The images are neutral placeholders until the real photos arrive: to swap
-// one in, drop the photo into public/showcase/ and update its path here.
+// Photos live in public/showcase/ as 4:5 WebP files. Children's names and
+// teachers' notes written on the drawings are removed before they go in.
 export const SHOWCASE_ITEMS = [
   {
     slug: "giraffe",
-    drawing: "/showcase/giraffe-drawing.svg",
-    sculpture: "/showcase/giraffe-sculpture.svg",
+    drawing: "/showcase/giraffe-drawing.webp",
+    sculpture: "/showcase/giraffe-sculpture.webp",
   },
   {
     slug: "rainbow-cat",
-    drawing: "/showcase/rainbow-cat-drawing.svg",
-    sculpture: "/showcase/rainbow-cat-sculpture.svg",
+    drawing: "/showcase/rainbow-cat-drawing.webp",
+    sculpture: "/showcase/rainbow-cat-sculpture.webp",
   },
   {
-    slug: "gecko",
-    drawing: "/showcase/gecko-drawing.svg",
-    sculpture: "/showcase/gecko-sculpture.svg",
+    slug: "fox",
+    drawing: "/showcase/fox-drawing.webp",
+    sculpture: "/showcase/fox-sculpture.webp",
   },
 ] as const;
 

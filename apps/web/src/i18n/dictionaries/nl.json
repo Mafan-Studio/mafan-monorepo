@@ -40,11 +40,11 @@
         "sculptureAlt": "Een 3D-aandenken van een regenboogkat, gemaakt en met de hand beschilderd naar een kindertekening",
         "name": "Regenboogkat"
       },
-      "gecko": {
-        "caption": "Een kleurrijke gekko die tot leven is gekomen",
-        "drawingAlt": "Een kindertekening van een kleurrijke gekko",
-        "sculptureAlt": "Een 3D-aandenken van een gekko, gemaakt en met de hand beschilderd naar een kindertekening",
-        "name": "Gekko"
+      "fox": {
+        "caption": "Een vos met grote oren en een nog groter karakter",
+        "drawingAlt": "Een kindertekening van een oranje vos",
+        "sculptureAlt": "Een 3D-aandenken van een vos, gemaakt en met de hand beschilderd naar een kindertekening",
+        "name": "Vos"
       }
     },
     "compareLabel": "Sleep om de tekening en het aandenken te vergelijken"
