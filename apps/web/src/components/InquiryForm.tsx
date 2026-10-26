@@ -3,6 +3,7 @@
 import { useEffect, useMemo, useState } from "react";
 import {
   Alert,
+  Anchor,
   Button,
   FileInput,
   Image,
@@ -256,7 +257,10 @@ export const InquiryForm = ({ locale, strings }: InquiryFormProps) => {
           </Alert>
         )}
         <Text size="xs" c={colors.neutral.secondaryInk}>
-          {strings.privacy}
+          {strings.privacy}{" "}
+          <Anchor href={`/${locale}/privacy`} size="xs" inherit>
+            {strings.privacyLink}
+          </Anchor>
         </Text>
         <Button
           type="submit"

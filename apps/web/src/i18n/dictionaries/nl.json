@@ -167,13 +167,82 @@
       "image_too_large": "De afbeelding moet kleiner zijn dan 8 MB.",
       "rate_limited": "Je hebt in korte tijd meerdere afbeeldingen verstuurd. Wacht even en probeer het opnieuw.",
       "server_error": "Er ging iets mis. Probeer het opnieuw of stuur ons een bericht op Instagram."
-    }
+    },
+    "privacyLink": "Lees onze privacyverklaring"
   },
   "footer": {
     "rights": "Mafan Studio · Met de hand gemaakt in Hoorn",
     "contactTitle": "Contact",
     "followTitle": "Volg ons",
     "studioTitle": "Studio",
-    "creditsTitle": "Fotoverantwoording"
+    "creditsTitle": "Fotoverantwoording",
+    "privacyLink": "Privacyverklaring",
+    "kvkLabel": "KvK",
+    "btwLabel": "Btw-id"
+  },
+  "privacy": {
+    "title": "Privacyverklaring",
+    "updated": "Laatst bijgewerkt: 26 oktober 2026",
+    "intro": "Mafan Studio (\"wij\") maakt van kindertekeningen 3D-aandenkens. In deze verklaring lees je welke persoonsgegevens we via deze website verzamelen, waarom we dat doen en welke rechten je hebt.",
+    "back": "Terug naar de homepage",
+    "sections": [
+      {
+        "heading": "Wie we zijn",
+        "paragraphs": [
+          "Mafan Studio is een kleine studio in Hoorn. Wij zijn verantwoordelijk voor de persoonsgegevens die hier worden beschreven. Je bereikt ons via info@mafan.studio."
+        ]
+      },
+      {
+        "heading": "Wat we verzamelen",
+        "paragraphs": [
+          "Als je ons via het formulier een tekening stuurt, ontvangen we: de foto van de tekening; je e-mailadres en/of Instagram-naam; en, als je die invult, je naam, de naam voor op het aandenken en je bericht. We bewaren ook de taal van de pagina die je gebruikte, het tijdstip van verzenden en je IP-adres.",
+          "Stuur je ons liever een bericht op Instagram, dan wordt dat gesprek ook verwerkt door Instagram (Meta), volgens hun eigen privacybeleid."
+        ]
+      },
+      {
+        "heading": "Waarvoor we het gebruiken",
+        "paragraphs": [
+          "We gebruiken je tekening en gegevens om je aanvraag te bekijken, je te laten weten wat er mogelijk is en wat het kost, je aandenken te maken en met je over je bestelling te communiceren. Dat doen we omdat jij ons daarom vraagt (stappen op jouw verzoek voorafgaand aan een overeenkomst, AVG artikel 6 lid 1 sub b).",
+          "Je IP-adres gebruiken we alleen om het formulier tegen spam te beschermen, door te beperken hoeveel aanvragen er in korte tijd verstuurd kunnen worden. Dat is ons gerechtvaardigd belang (AVG artikel 6 lid 1 sub f).",
+          "We gebruiken je gegevens niet voor reclame en verkopen ze nooit."
+        ]
+      },
+      {
+        "heading": "Hoe lang we het bewaren",
+        "paragraphs": [
+          "We bewaren je aanvraag en tekening tot maximaal 12 maanden na ons laatste contact. Bestel je een aandenken, dan bewaren we wat nodig is voor de bestelling en voor onze wettelijke verplichtingen, zoals de belastingadministratie, zo lang als de wet dat vereist."
+        ]
+      },
+      {
+        "heading": "Wie ons helpen",
+        "paragraphs": [
+          "Onze website wordt gehost door Vercel, en aanvragen en tekeningen worden opgeslagen bij Supabase. Zij verwerken gegevens alleen in onze opdracht en volgens onze instructies. Als gegevens buiten de Europese Unie worden verwerkt, gebeurt dat met waarborgen zoals de EU-modelcontractbepalingen."
+        ]
+      },
+      {
+        "heading": "Cookies",
+        "paragraphs": [
+          "We plaatsen één functionele cookie, NEXT_LOCALE, die een jaar lang onthoudt welke taal je hebt gekozen. We gebruiken geen analytische, advertentie- of trackingcookies en hoeven daarom geen toestemming te vragen."
+        ]
+      },
+      {
+        "heading": "Jouw rechten",
+        "paragraphs": [
+          "Je kunt ons vragen je gegevens in te zien, te corrigeren of te verwijderen, het gebruik ervan te beperken of er bezwaar tegen te maken, of een kopie te ontvangen. Mail naar info@mafan.studio; we reageren binnen een maand."
+        ]
+      },
+      {
+        "heading": "Klachten",
+        "paragraphs": [
+          "Ben je niet tevreden over hoe we met je gegevens omgaan, laat het ons dan eerst weten. Je hebt ook het recht een klacht in te dienen bij de Autoriteit Persoonsgegevens, autoriteitpersoonsgegevens.nl."
+        ]
+      },
+      {
+        "heading": "Over kinderen",
+        "paragraphs": [
+          "We hebben alleen de tekening zelf nodig. Stuur ons geen foto's van je kind, en vul de naam van je kind alleen in als je die op het aandenken wilt."
+        ]
+      }
+    ]
   }
 }

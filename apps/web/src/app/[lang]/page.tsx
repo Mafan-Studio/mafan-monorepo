@@ -9,6 +9,7 @@ import { Hero } from "@/components/Hero";
 import { HowItWorks } from "@/components/HowItWorks";
 import { InstagramFeed } from "@/components/InstagramFeed";
 import { Showcase } from "@/components/Showcase";
+import { LEGAL } from "@/content/site";
 import { getDictionary } from "@/i18n/getDictionary";
 import { getInstagramPosts } from "@/lib/instagram";
 
@@ -41,7 +42,7 @@ export default async function Home({ params }: PageProps<"/[lang]">) {
           formStrings={dictionary.form}
         />
       </main>
-      <Footer strings={dictionary.footer} />
+      <Footer lang={lang} legal={LEGAL} strings={dictionary.footer} />
     </>
   );
 }

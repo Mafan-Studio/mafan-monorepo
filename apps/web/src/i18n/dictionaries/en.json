@@ -167,13 +167,82 @@
       "image_too_large": "The image must be smaller than 8 MB.",
       "rate_limited": "You've sent several images in a short time. Please wait a little and try again.",
       "server_error": "Something went wrong. Please try again or message us on Instagram."
-    }
+    },
+    "privacyLink": "Read our privacy statement"
   },
   "footer": {
     "rights": "Mafan Studio · Handmade in Hoorn, the Netherlands",
     "contactTitle": "Contact",
     "followTitle": "Follow",
     "studioTitle": "Studio",
-    "creditsTitle": "Photo credits"
+    "creditsTitle": "Photo credits",
+    "privacyLink": "Privacy statement",
+    "kvkLabel": "KvK",
+    "btwLabel": "BTW-id"
+  },
+  "privacy": {
+    "title": "Privacy statement",
+    "updated": "Last updated: 26 October 2026",
+    "intro": "Mafan Studio (\"we\") turns children's drawings into 3D keepsakes. This statement explains what personal data we collect through this website, why we collect it, and what your rights are.",
+    "back": "Back to the home page",
+    "sections": [
+      {
+        "heading": "Who we are",
+        "paragraphs": [
+          "Mafan Studio is a small studio in Hoorn, the Netherlands. We are responsible for the personal data described here. You can reach us at info@mafan.studio."
+        ]
+      },
+      {
+        "heading": "What we collect",
+        "paragraphs": [
+          "When you send us a drawing through the form, we receive: the photo of the drawing; your email address and/or Instagram handle; and, if you fill them in, your name, the name for the keepsake and your message. We also store the language of the page you used, the time you sent it and your IP address.",
+          "If you message us on Instagram instead, that conversation is also handled by Instagram (Meta) under its own privacy policy."
+        ]
+      },
+      {
+        "heading": "Why we use it",
+        "paragraphs": [
+          "We use your drawing and details to review your request, tell you what is possible and the price, make your keepsake and talk with you about your order. We do this because you asked us to (taking steps at your request before an agreement, GDPR article 6(1)(b)).",
+          "We use your IP address only to protect the form against spam, by limiting how many requests can be sent in a short time. This is our legitimate interest (GDPR article 6(1)(f)).",
+          "We do not use your data for advertising, and we never sell it."
+        ]
+      },
+      {
+        "heading": "How long we keep it",
+        "paragraphs": [
+          "We keep your request and drawing for up to 12 months after our last contact. If you order a keepsake, we keep what we need for the order and for our legal obligations, such as tax records, for as long as the law requires."
+        ]
+      },
+      {
+        "heading": "Who helps us",
+        "paragraphs": [
+          "Our website is hosted by Vercel, and form submissions and drawings are stored with Supabase. They process data only on our behalf and under our instructions. Where data is processed outside the European Union, this happens with safeguards such as the EU Standard Contractual Clauses."
+        ]
+      },
+      {
+        "heading": "Cookies",
+        "paragraphs": [
+          "We place one functional cookie, NEXT_LOCALE, which remembers the language you chose for one year. We do not use analytics, advertising or tracking cookies, so we do not need to ask for your consent."
+        ]
+      },
+      {
+        "heading": "Your rights",
+        "paragraphs": [
+          "You can ask us to see, correct or delete your data, to limit or object to how we use it, or to receive a copy of it. Email info@mafan.studio and we will reply within one month."
+        ]
+      },
+      {
+        "heading": "Complaints",
+        "paragraphs": [
+          "If you are not happy with how we handle your data, please tell us first. You also have the right to complain to the Dutch Data Protection Authority (Autoriteit Persoonsgegevens), autoriteitpersoonsgegevens.nl."
+        ]
+      },
+      {
+        "heading": "About children",
+        "paragraphs": [
+          "We only need the drawing itself. Please do not send photos of your child, and only add your child's name if you want it on the keepsake."
+        ]
+      }
+    ]
   }
 }

@@ -11,3 +11,21 @@ export const INSTAGRAM_DM_URL = `https://ig.me/m/${INSTAGRAM_HANDLE}`;
 export const CONTACT_EMAIL = "info@mafan.studio";
 
 export const SITE_URL = "https://www.mafan.studio";
+
+// Details Dutch law requires on a business website (KvK number, trade
+// name, address, email; BTW-id once selling). Fill these in from the KvK
+// registration; a field left null is simply not shown.
+export interface LegalDetails {
+  tradeName: string;
+  kvkNumber: string | null;
+  btwId: string | null;
+  // Leave null if the visiting address is shielded in the KvK register.
+  address: string | null;
+}
+
+export const LEGAL: LegalDetails = {
+  tradeName: "Mafan Studio",
+  kvkNumber: "42116736",
+  btwId: "NL005505510B23",
+  address: "Jacques Bloemhof 135, 1628 VR Hoorn",
+};
