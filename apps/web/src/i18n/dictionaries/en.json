@@ -1,0 +1,248 @@
+{
+  "meta": {
+    "title": "Mafan Studio | Your Child's Drawing, Made into a 3D Keepsake",
+    "description": "We turn your child's drawing into a one-of-a-kind 3D keepsake, carefully created from the original artwork, 3D printed and hand-painted in the Netherlands."
+  },
+  "header": {
+    "homeLabel": "Mafan Studio home",
+    "languageLabel": "Language",
+    "instagramLabel": "Mafan Studio on Instagram"
+  },
+  "nav": {
+    "label": "Sections",
+    "examples": "Examples",
+    "howItWorks": "How it works",
+    "about": "About us",
+    "faq": "Questions",
+    "contact": "Send a drawing"
+  },
+  "hero": {
+    "title": "They draw it. We make it real.",
+    "subtitle": "We turn your child's drawing into a 3D keepsake, keeping the shapes, colours and little details that make it unmistakably theirs.",
+    "ctaForm": "Send us a drawing",
+    "ctaInstagram": "Message us on Instagram"
+  },
+  "showcase": {
+    "title": "From a simple drawing to a real keepsake",
+    "intro": "Every keepsake begins with a real child's drawing. We don't try to change it — we bring what they imagined off the page and into the real world.",
+    "drawingLabel": "Original drawing",
+    "sculptureLabel": "3D keepsake",
+    "items": {
+      "giraffe": {
+        "caption": "A giraffe that stepped right off the page",
+        "drawingAlt": "A child's drawing of a giraffe",
+        "sculptureAlt": "A 3D giraffe keepsake created and hand-painted from a child's drawing",
+        "name": "Giraffe"
+      },
+      "rainbow-cat": {
+        "caption": "A rainbow cat, straight from a child's imagination",
+        "drawingAlt": "A child's drawing of a rainbow cat",
+        "sculptureAlt": "A 3D rainbow cat keepsake created and hand-painted from a child's drawing",
+        "name": "Rainbow cat"
+      },
+      "fox": {
+        "caption": "A fox with big ears and a bigger personality",
+        "drawingAlt": "A child's drawing of an orange fox",
+        "sculptureAlt": "A 3D fox keepsake created and hand-painted from a child's drawing",
+        "name": "Fox"
+      }
+    },
+    "compareLabel": "Drag to compare the drawing and the keepsake"
+  },
+  "howItWorks": {
+    "title": "How does a drawing become real?",
+    "intro": "From a simple photo of the drawing to a keepsake you can hold in your hands.",
+    "steps": [
+      {
+        "title": "1. Send us the drawing",
+        "text": "Take a clear photo of the drawing and send it to us through the form below or on Instagram.",
+        "imageAlt": "A child drawing with a felt-tip pen"
+      },
+      {
+        "title": "2. We bring it into 3D",
+        "text": "We turn the drawing into a 3D model while keeping the character and special little details of the original.",
+        "imageAlt": ""
+      },
+      {
+        "title": "3. We print and finish it",
+        "text": "The model is carefully 3D printed, then sanded and finished by hand to prepare it for painting.",
+        "imageAlt": "A small figure being 3D printed, layer by layer"
+      },
+      {
+        "title": "4. We paint it by hand",
+        "text": "Using the original drawing as our guide, we hand-paint each keepsake to bring its colours to life.",
+        "imageAlt": "Paint brushes"
+      },
+      {
+        "title": "5. It's ready!",
+        "text": "Your keepsake is carefully packed and ready to make its way home to you.",
+        "imageAlt": "Parcels tied with string"
+      }
+    ],
+    "timing": "From drawing to finished keepsake, the process usually takes around 2 weeks.",
+    "previous": "Previous step",
+    "next": "Next step"
+  },
+  "about": {
+    "title": "About Mafan Studio",
+    "paragraphs": [
+      "Mafan Studio is a small creative studio in Hoorn, the Netherlands, where children's drawings step off the page and become real 3D keepsakes.",
+      "Every piece is individually created from the original drawing, 3D printed, then carefully finished and painted by hand.",
+      "We don't mind if the lines aren't straight or if one eye is bigger than the other. In fact, those are the details we love most. We don't correct them — we keep them."
+    ],
+    "signOff": "Mafan Studio",
+    "signRole": "Hoorn, the Netherlands",
+    "photoCaption": "The harbour of Hoorn, our home town",
+    "photoAlt": "Boats in the harbour of Hoorn"
+  },
+  "instagram": {
+    "title": "Fresh from the Mafan Studio",
+    "follow": "Follow the next drawings we bring to life on Instagram",
+    "postAlt": "A 3D keepsake created by Mafan Studio",
+    "videoLabel": "Video"
+  },
+  "faq": {
+    "title": "Your questions",
+    "items": [
+      {
+        "question": "What kind of drawings can you make?",
+        "answer": "More than you might think! Animals, people, monsters, imaginary characters or whatever wonderful creature your child has dreamed up. Just send us a clear photo of the drawing. If anything is unclear, we'll ask before we start.",
+        "topic": "Drawings"
+      },
+      {
+        "question": "How long does it take?",
+        "answer": "Usually around 2 weeks from the moment we finalise the details of your order.",
+        "topic": "Timing"
+      },
+      {
+        "question": "How much does it cost?",
+        "answer": "Once we've seen the drawing, we'll let you know the exact price. Sending us a drawing for review is completely free and there's no obligation to order.",
+        "topic": "Price"
+      },
+      {
+        "question": "Where do you deliver?",
+        "answer": "We ship throughout the Netherlands. If you're elsewhere in the EU, get in touch before ordering and we'll check the shipping options for you.",
+        "topic": "Delivery"
+      },
+      {
+        "question": "Can you add my child's name?",
+        "answer": "Yes. If you'd like, we can add your child's name to the base of the keepsake.",
+        "topic": "Name"
+      }
+    ]
+  },
+  "contact": {
+    "title": "Have a drawing you'd love to make real?",
+    "intro": "Send us a photo. We'll take a look and get back to you about what's possible and the price.",
+    "dmTitle": "Send it on Instagram",
+    "dmText": "Send us a photo of the drawing in a direct message and we can take it from there.",
+    "dmCta": "Message us on Instagram",
+    "formTitle": "Or send the drawing here"
+  },
+  "form": {
+    "drawingLabel": "Photo of the drawing",
+    "drawingPlaceholder": "Upload a photo or scan of the drawing",
+    "previewAlt": "Preview of the uploaded drawing",
+    "contactHint": "Leave your email or Instagram handle so we can get back to you.",
+    "emailLabel": "Email",
+    "instagramLabel": "Instagram handle",
+    "instagramPlaceholder": "@yourname",
+    "nameLabel": "Your name (optional)",
+    "childNameLabel": "Name on the keepsake (optional)",
+    "childNameHint": "If you'd like, we can add your child's name to the base.",
+    "messageLabel": "Anything we should know about the drawing? (optional)",
+    "messagePlaceholder": "For example: Please keep the pink dress and yellow crown just like they are in the drawing.",
+    "privacy": "We only use your drawing and contact details to review your request, create your keepsake and communicate with you about your order.",
+    "submit": "Send the drawing",
+    "successTitle": "We've got your drawing!",
+    "successText": "We'll take a look and get back to you soon about what's possible and the price.",
+    "errorTitle": "We couldn't send your drawing",
+    "errors": {
+      "contact_required": "Please enter your email or Instagram handle so we can get back to you.",
+      "invalid_email": "Please enter a valid email address.",
+      "invalid_instagram": "Please enter a valid Instagram handle.",
+      "field_too_long": "One of the fields is too long. Please shorten it.",
+      "image_required": "Please upload a photo of the drawing.",
+      "image_type": "Please upload a JPEG, PNG, WEBP or HEIC image.",
+      "image_too_large": "The image must be smaller than 8 MB.",
+      "rate_limited": "You've sent several images in a short time. Please wait a little and try again.",
+      "server_error": "Something went wrong. Please try again or message us on Instagram."
+    },
+    "privacyLink": "Read our privacy statement"
+  },
+  "footer": {
+    "rights": "Mafan Studio · Handmade in Hoorn, the Netherlands",
+    "contactTitle": "Contact",
+    "followTitle": "Follow",
+    "studioTitle": "Studio",
+    "creditsTitle": "Photo credits",
+    "privacyLink": "Privacy statement",
+    "kvkLabel": "KvK",
+    "btwLabel": "BTW-id"
+  },
+  "privacy": {
+    "title": "Privacy statement",
+    "updated": "Last updated: 26 October 2026",
+    "intro": "Mafan Studio (\"we\") turns children's drawings into 3D keepsakes. This statement explains what personal data we collect through this website, why we collect it, and what your rights are.",
+    "back": "Back to the home page",
+    "sections": [
+      {
+        "heading": "Who we are",
+        "paragraphs": [
+          "Mafan Studio is a small studio in Hoorn, the Netherlands. We are responsible for the personal data described here. You can reach us at info@mafan.studio."
+        ]
+      },
+      {
+        "heading": "What we collect",
+        "paragraphs": [
+          "When you send us a drawing through the form, we receive: the photo of the drawing; your email address and/or Instagram handle; and, if you fill them in, your name, the name for the keepsake and your message. We also store the language of the page you used, the time you sent it and your IP address.",
+          "If you message us on Instagram instead, that conversation is also handled by Instagram (Meta) under its own privacy policy."
+        ]
+      },
+      {
+        "heading": "Why we use it",
+        "paragraphs": [
+          "We use your drawing and details to review your request, tell you what is possible and the price, make your keepsake and talk with you about your order. We do this because you asked us to (taking steps at your request before an agreement, GDPR article 6(1)(b)).",
+          "We use your IP address only to protect the form against spam, by limiting how many requests can be sent in a short time. This is our legitimate interest (GDPR article 6(1)(f)).",
+          "We do not use your data for advertising, and we never sell it."
+        ]
+      },
+      {
+        "heading": "How long we keep it",
+        "paragraphs": [
+          "We keep your request and drawing for up to 12 months after our last contact. If you order a keepsake, we keep what we need for the order and for our legal obligations, such as tax records, for as long as the law requires."
+        ]
+      },
+      {
+        "heading": "Who helps us",
+        "paragraphs": [
+          "Our website is hosted by Vercel, and form submissions and drawings are stored with Supabase. They process data only on our behalf and under our instructions. Where data is processed outside the European Union, this happens with safeguards such as the EU Standard Contractual Clauses."
+        ]
+      },
+      {
+        "heading": "Cookies",
+        "paragraphs": [
+          "We place one functional cookie, NEXT_LOCALE, which remembers the language you chose for one year. We do not use analytics, advertising or tracking cookies, so we do not need to ask for your consent."
+        ]
+      },
+      {
+        "heading": "Your rights",
+        "paragraphs": [
+          "You can ask us to see, correct or delete your data, to limit or object to how we use it, or to receive a copy of it. Email info@mafan.studio and we will reply within one month."
+        ]
+      },
+      {
+        "heading": "Complaints",
+        "paragraphs": [
+          "If you are not happy with how we handle your data, please tell us first. You also have the right to complain to the Dutch Data Protection Authority (Autoriteit Persoonsgegevens), autoriteitpersoonsgegevens.nl."
+        ]
+      },
+      {
+        "heading": "About children",
+        "paragraphs": [
+          "We only need the drawing itself. Please do not send photos of your child, and only add your child's name if you want it on the keepsake."
+        ]
+      }
+    ]
+  }
+}

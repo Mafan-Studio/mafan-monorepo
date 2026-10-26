@@ -1,27 +1,18 @@
 export const colors = {
   brand: {
-    pink: "#F6A9C4",
-    yellow: "#F7CF61",
-    blue: "#A9DCE5",
-    ink: "#171717",
+    pink: "#F28CB7",
+    pinkDeep: "#E06FA0",
+    navy: "#1A1A2E",
     warmWhite: "#FFFCF8",
   },
   pink: {
-    soft: "#FDE4ED",
-    base: "#F6A9C4",
-    deep: "#D96D95",
-  },
-  yellow: {
-    soft: "#FFF2BD",
-    base: "#F7CF61",
-  },
-  blue: {
-    soft: "#E1F4F7",
-    base: "#A9DCE5",
+    soft: "#FDE3EE",
+    base: "#F28CB7",
+    deep: "#E06FA0",
   },
   neutral: {
-    ink: "#171717",
-    secondaryInk: "#45413F",
+    ink: "#1A1A2E",
+    secondaryInk: "#4A4A5E",
     white: "#FFFFFF",
     warmWhite: "#FFFCF8",
     warmCream: "#FFF6EE",
@@ -59,9 +50,11 @@ export const toMantineShades = (
   string,
 ] => [soft, soft, soft, soft, base, base, base, deep, deep, deep];
 
+// Fredoka has no Arabic-script glyphs, so Persian text falls back to
+// Vazirmatn per character while Latin text keeps the Fredoka look.
 export const fonts = {
-  body: "'Fredoka', sans-serif",
-  heading: "'Fredoka', sans-serif",
+  body: "'Fredoka', 'Vazirmatn', sans-serif",
+  heading: "'Fredoka', 'Vazirmatn', sans-serif",
 } as const;
 
 export const spacing = {

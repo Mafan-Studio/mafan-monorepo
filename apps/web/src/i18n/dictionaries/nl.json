@@ -1,0 +1,248 @@
+{
+  "meta": {
+    "title": "Mafan Studio | De tekening van je kind als 3D-aandenken",
+    "description": "Wij maken van de tekening van je kind een uniek 3D-aandenken, gebaseerd op het originele kunstwerk, 3D-geprint en met de hand beschilderd in Nederland."
+  },
+  "header": {
+    "homeLabel": "Mafan Studio home",
+    "languageLabel": "Taal",
+    "instagramLabel": "Mafan Studio op Instagram"
+  },
+  "nav": {
+    "label": "Onderdelen",
+    "examples": "Voorbeelden",
+    "howItWorks": "Zo werkt het",
+    "about": "Over ons",
+    "faq": "Vragen",
+    "contact": "Stuur een tekening"
+  },
+  "hero": {
+    "title": "Zij tekenen het. Wij maken het echt.",
+    "subtitle": "Wij maken van de tekening van je kind een 3D-aandenken, met precies die vormen, kleuren en bijzondere details die het helemaal van hen maken.",
+    "ctaForm": "Stuur ons een tekening",
+    "ctaInstagram": "Stuur ons een bericht op Instagram"
+  },
+  "showcase": {
+    "title": "Van een tekening naar een echt aandenken",
+    "intro": "Elk aandenken begint met een echte kindertekening. We veranderen die niet — we brengen de fantasie van je kind van het papier naar de echte wereld.",
+    "drawingLabel": "Originele tekening",
+    "sculptureLabel": "3D-aandenken",
+    "items": {
+      "giraffe": {
+        "caption": "Een giraf die zo van het papier lijkt te zijn gestapt",
+        "drawingAlt": "Een kindertekening van een giraf",
+        "sculptureAlt": "Een 3D-aandenken van een giraf, gemaakt en met de hand beschilderd naar een kindertekening",
+        "name": "Giraf"
+      },
+      "rainbow-cat": {
+        "caption": "Een regenboogkat, rechtstreeks uit de fantasie van een kind",
+        "drawingAlt": "Een kindertekening van een regenboogkat",
+        "sculptureAlt": "Een 3D-aandenken van een regenboogkat, gemaakt en met de hand beschilderd naar een kindertekening",
+        "name": "Regenboogkat"
+      },
+      "fox": {
+        "caption": "Een vos met grote oren en een nog groter karakter",
+        "drawingAlt": "Een kindertekening van een oranje vos",
+        "sculptureAlt": "Een 3D-aandenken van een vos, gemaakt en met de hand beschilderd naar een kindertekening",
+        "name": "Vos"
+      }
+    },
+    "compareLabel": "Sleep om de tekening en het aandenken te vergelijken"
+  },
+  "howItWorks": {
+    "title": "Hoe wordt een tekening echt?",
+    "intro": "Van een simpele foto van de tekening naar een aandenken dat je echt kunt vasthouden.",
+    "steps": [
+      {
+        "title": "1. Stuur ons de tekening",
+        "text": "Maak een duidelijke foto van de tekening en stuur die via het formulier hieronder of via Instagram.",
+        "imageAlt": "Een kind tekent met een viltstift"
+      },
+      {
+        "title": "2. Wij brengen hem tot leven in 3D",
+        "text": "We zetten de tekening om in een 3D-model en behouden het karakter en alle bijzondere details van het origineel.",
+        "imageAlt": ""
+      },
+      {
+        "title": "3. We printen en werken hem af",
+        "text": "Het model wordt zorgvuldig 3D-geprint en daarna met de hand geschuurd en afgewerkt, klaar om beschilderd te worden.",
+        "imageAlt": "Een klein figuurtje wordt laag voor laag 3D-geprint"
+      },
+      {
+        "title": "4. We beschilderen hem met de hand",
+        "text": "Met de originele tekening als voorbeeld beschilderen we elk aandenken met de hand en brengen we de kleuren tot leven.",
+        "imageAlt": "Penselen"
+      },
+      {
+        "title": "5. Klaar!",
+        "text": "Je aandenken wordt zorgvuldig verpakt en is klaar om naar zijn nieuwe thuis te gaan.",
+        "imageAlt": "Pakketjes met touw"
+      }
+    ],
+    "timing": "Van tekening tot afgewerkt aandenken duurt het meestal ongeveer 2 weken.",
+    "previous": "Vorige stap",
+    "next": "Volgende stap"
+  },
+  "about": {
+    "title": "Over Mafan Studio",
+    "paragraphs": [
+      "Mafan Studio is een kleine creatieve studio in Hoorn, waar kindertekeningen van het papier af komen en veranderen in echte 3D-aandenkens.",
+      "Elk aandenken wordt afzonderlijk gemaakt op basis van de originele tekening, 3D-geprint en daarna zorgvuldig met de hand afgewerkt en beschilderd.",
+      "Wij vinden het niet erg als de lijnen niet recht zijn of het ene oog groter is dan het andere. Juist die details maken een kindertekening bijzonder. We corrigeren ze niet — we bewaren ze."
+    ],
+    "signOff": "Mafan Studio",
+    "signRole": "Hoorn, Nederland",
+    "photoCaption": "De haven van Hoorn, onze thuisstad",
+    "photoAlt": "Boten in de haven van Hoorn"
+  },
+  "instagram": {
+    "title": "Vers uit Mafan Studio",
+    "follow": "Volg op Instagram welke tekeningen we als volgende tot leven brengen",
+    "postAlt": "Een 3D-aandenken gemaakt door Mafan Studio",
+    "videoLabel": "Video"
+  },
+  "faq": {
+    "title": "Veelgestelde vragen",
+    "items": [
+      {
+        "question": "Welke tekeningen kunnen jullie maken?",
+        "answer": "Meer dan je misschien denkt! Dieren, mensen, monsters, fantasiefiguren of welk bijzonder wezen je kind ook heeft bedacht. Stuur ons gewoon een duidelijke foto van de tekening. Is iets niet helemaal duidelijk? Dan vragen we het voordat we beginnen.",
+        "topic": "Tekeningen"
+      },
+      {
+        "question": "Hoe lang duurt het?",
+        "answer": "Meestal ongeveer 2 weken vanaf het moment dat we samen de details van je bestelling hebben afgestemd.",
+        "topic": "Tijd"
+      },
+      {
+        "question": "Wat kost het?",
+        "answer": "Zodra we de tekening hebben gezien, laten we je de exacte prijs weten. Een tekening insturen om te laten beoordelen is helemaal gratis en vrijblijvend.",
+        "topic": "Prijs"
+      },
+      {
+        "question": "Waar bezorgen jullie?",
+        "answer": "We verzenden door heel Nederland. Woon je ergens anders in de EU? Neem dan vóór je bestelling contact met ons op, zodat we de verzendmogelijkheden voor je kunnen bekijken.",
+        "topic": "Bezorging"
+      },
+      {
+        "question": "Kunnen jullie de naam van mijn kind toevoegen?",
+        "answer": "Ja. Als je wilt, kunnen we de naam van je kind aan de voet van het aandenken toevoegen.",
+        "topic": "Naam"
+      }
+    ]
+  },
+  "contact": {
+    "title": "Heb je een tekening die je tot leven wilt laten komen?",
+    "intro": "Stuur ons een foto. We bekijken de tekening en laten je weten wat er mogelijk is en wat het kost.",
+    "dmTitle": "Stuur hem via Instagram",
+    "dmText": "Stuur ons een foto van de tekening in een privébericht, dan bespreken we de rest daar.",
+    "dmCta": "Stuur een bericht op Instagram",
+    "formTitle": "Of stuur de tekening hier"
+  },
+  "form": {
+    "drawingLabel": "Foto van de tekening",
+    "drawingPlaceholder": "Upload een foto of scan van de tekening",
+    "previewAlt": "Voorbeeld van de geüploade tekening",
+    "contactHint": "Laat je e-mailadres of Instagram-naam achter, zodat we contact met je kunnen opnemen.",
+    "emailLabel": "E-mail",
+    "instagramLabel": "Instagram-naam",
+    "instagramPlaceholder": "@jouwnaam",
+    "nameLabel": "Je naam (optioneel)",
+    "childNameLabel": "Naam op het aandenken (optioneel)",
+    "childNameHint": "Als je wilt, kunnen we de naam van je kind aan de voet toevoegen.",
+    "messageLabel": "Is er iets dat we over de tekening moeten weten? (optioneel)",
+    "messagePlaceholder": "Bijvoorbeeld: behoud de roze jurk en de gele kroon precies zoals ze op de tekening staan.",
+    "privacy": "We gebruiken je tekening en contactgegevens alleen om je aanvraag te beoordelen, je aandenken te maken en met je te communiceren over je bestelling.",
+    "submit": "Stuur de tekening",
+    "successTitle": "We hebben je tekening ontvangen!",
+    "successText": "We bekijken hem en nemen snel contact met je op over de mogelijkheden en de prijs.",
+    "errorTitle": "Je tekening kon niet worden verstuurd",
+    "errors": {
+      "contact_required": "Vul je e-mailadres of Instagram-naam in, zodat we contact met je kunnen opnemen.",
+      "invalid_email": "Vul een geldig e-mailadres in.",
+      "invalid_instagram": "Vul een geldige Instagram-naam in.",
+      "field_too_long": "Een van de velden is te lang. Maak het iets korter.",
+      "image_required": "Upload een foto van de tekening.",
+      "image_type": "Upload een JPEG-, PNG-, WEBP- of HEIC-afbeelding.",
+      "image_too_large": "De afbeelding moet kleiner zijn dan 8 MB.",
+      "rate_limited": "Je hebt in korte tijd meerdere afbeeldingen verstuurd. Wacht even en probeer het opnieuw.",
+      "server_error": "Er ging iets mis. Probeer het opnieuw of stuur ons een bericht op Instagram."
+    },
+    "privacyLink": "Lees onze privacyverklaring"
+  },
+  "footer": {
+    "rights": "Mafan Studio · Met de hand gemaakt in Hoorn",
+    "contactTitle": "Contact",
+    "followTitle": "Volg ons",
+    "studioTitle": "Studio",
+    "creditsTitle": "Fotoverantwoording",
+    "privacyLink": "Privacyverklaring",
+    "kvkLabel": "KvK",
+    "btwLabel": "Btw-id"
+  },
+  "privacy": {
+    "title": "Privacyverklaring",
+    "updated": "Laatst bijgewerkt: 26 oktober 2026",
+    "intro": "Mafan Studio (\"wij\") maakt van kindertekeningen 3D-aandenkens. In deze verklaring lees je welke persoonsgegevens we via deze website verzamelen, waarom we dat doen en welke rechten je hebt.",
+    "back": "Terug naar de homepage",
+    "sections": [
+      {
+        "heading": "Wie we zijn",
+        "paragraphs": [
+          "Mafan Studio is een kleine studio in Hoorn. Wij zijn verantwoordelijk voor de persoonsgegevens die hier worden beschreven. Je bereikt ons via info@mafan.studio."
+        ]
+      },
+      {
+        "heading": "Wat we verzamelen",
+        "paragraphs": [
+          "Als je ons via het formulier een tekening stuurt, ontvangen we: de foto van de tekening; je e-mailadres en/of Instagram-naam; en, als je die invult, je naam, de naam voor op het aandenken en je bericht. We bewaren ook de taal van de pagina die je gebruikte, het tijdstip van verzenden en je IP-adres.",
+          "Stuur je ons liever een bericht op Instagram, dan wordt dat gesprek ook verwerkt door Instagram (Meta), volgens hun eigen privacybeleid."
+        ]
+      },
+      {
+        "heading": "Waarvoor we het gebruiken",
+        "paragraphs": [
+          "We gebruiken je tekening en gegevens om je aanvraag te bekijken, je te laten weten wat er mogelijk is en wat het kost, je aandenken te maken en met je over je bestelling te communiceren. Dat doen we omdat jij ons daarom vraagt (stappen op jouw verzoek voorafgaand aan een overeenkomst, AVG artikel 6 lid 1 sub b).",
+          "Je IP-adres gebruiken we alleen om het formulier tegen spam te beschermen, door te beperken hoeveel aanvragen er in korte tijd verstuurd kunnen worden. Dat is ons gerechtvaardigd belang (AVG artikel 6 lid 1 sub f).",
+          "We gebruiken je gegevens niet voor reclame en verkopen ze nooit."
+        ]
+      },
+      {
+        "heading": "Hoe lang we het bewaren",
+        "paragraphs": [
+          "We bewaren je aanvraag en tekening tot maximaal 12 maanden na ons laatste contact. Bestel je een aandenken, dan bewaren we wat nodig is voor de bestelling en voor onze wettelijke verplichtingen, zoals de belastingadministratie, zo lang als de wet dat vereist."
+        ]
+      },
+      {
+        "heading": "Wie ons helpen",
+        "paragraphs": [
+          "Onze website wordt gehost door Vercel, en aanvragen en tekeningen worden opgeslagen bij Supabase. Zij verwerken gegevens alleen in onze opdracht en volgens onze instructies. Als gegevens buiten de Europese Unie worden verwerkt, gebeurt dat met waarborgen zoals de EU-modelcontractbepalingen."
+        ]
+      },
+      {
+        "heading": "Cookies",
+        "paragraphs": [
+          "We plaatsen één functionele cookie, NEXT_LOCALE, die een jaar lang onthoudt welke taal je hebt gekozen. We gebruiken geen analytische, advertentie- of trackingcookies en hoeven daarom geen toestemming te vragen."
+        ]
+      },
+      {
+        "heading": "Jouw rechten",
+        "paragraphs": [
+          "Je kunt ons vragen je gegevens in te zien, te corrigeren of te verwijderen, het gebruik ervan te beperken of er bezwaar tegen te maken, of een kopie te ontvangen. Mail naar info@mafan.studio; we reageren binnen een maand."
+        ]
+      },
+      {
+        "heading": "Klachten",
+        "paragraphs": [
+          "Ben je niet tevreden over hoe we met je gegevens omgaan, laat het ons dan eerst weten. Je hebt ook het recht een klacht in te dienen bij de Autoriteit Persoonsgegevens, autoriteitpersoonsgegevens.nl."
+        ]
+      },
+      {
+        "heading": "Over kinderen",
+        "paragraphs": [
+          "We hebben alleen de tekening zelf nodig. Stuur ons geen foto's van je kind, en vul de naam van je kind alleen in als je die op het aandenken wilt."
+        ]
+      }
+    ]
+  }
+}
