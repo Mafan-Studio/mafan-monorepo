@@ -100,7 +100,8 @@ test.describe("Language pages", () => {
 test.describe("Language switcher", () => {
   test("switching saves the choice for later visits to /", async ({ page }) => {
     await page.goto("/nl");
-    await page.getByRole("link", { name: "فارسی" }).click();
+    await page.getByRole("button", { name: /Nederlands/ }).click();
+    await page.getByRole("menuitem", { name: "فارسی" }).click();
     await expect(page).toHaveURL(/\/fa$/);
     await expect(page.locator("html")).toHaveAttribute("dir", "rtl");
 
@@ -114,8 +115,11 @@ test.describe("Language switcher", () => {
     });
     const page = await context.newPage();
     await page.goto("/en");
+    const trigger = page.getByRole("button", { name: /English/ });
+    await expect(trigger).toBeInViewport();
+    await trigger.click();
     for (const name of ["English", "Nederlands", "فارسی"]) {
-      await expect(page.getByRole("link", { name })).toBeInViewport();
+      await expect(page.getByRole("menuitem", { name })).toBeInViewport();
     }
     await context.close();
   });

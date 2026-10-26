@@ -21,7 +21,7 @@ const Logo = styled.img`
   width: auto;
 
   @media (max-width: 30em) {
-    height: 22px;
+    height: 26px;
   }
 `;
 
