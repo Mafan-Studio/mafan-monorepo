@@ -8,7 +8,7 @@ drawing" inquiry form and a live Instagram feed.
 
 ```bash
 cp .env.local.example .env.local   # then fill in the values
-pnpm dev                           # http://localhost:3000
+pnpm dev                           # http://localhost:3200
 pnpm test                          # unit tests (Vitest)
 pnpm test:e2e                      # browser tests (Playwright)
 ```
