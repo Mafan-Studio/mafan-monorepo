@@ -1,6 +1,8 @@
 import { useEffect, useState } from "react";
 import {
   Alert,
+  Anchor,
+  Badge,
   Button,
   Card,
   Container,
@@ -15,8 +17,10 @@ import { supabase } from "../lib/supabaseClient";
 
 interface InquiryRow {
   id: string;
-  name: string;
-  email: string;
+  name: string | null;
+  email: string | null;
+  instagram_handle: string | null;
+  locale: string;
   child_name: string | null;
   message: string | null;
   image_path: string | null;
@@ -28,6 +32,12 @@ interface InquiriesDashboardProps {
 }
 
 const SIGNED_URL_TTL_SECONDS = 10 * 60;
+
+const LANGUAGE_NAMES: Record<string, string> = {
+  en: "English",
+  nl: "Dutch",
+  fa: "Persian",
+};
 
 export const InquiriesDashboard = ({ onLogout }: InquiriesDashboardProps) => {
   const [inquiries, setInquiries] = useState<InquiryRow[]>([]);
@@ -44,7 +54,9 @@ export const InquiriesDashboard = ({ onLogout }: InquiriesDashboardProps) => {
 
       const { data, error: fetchError } = await supabase
         .from("inquiries")
-        .select("id, name, email, child_name, message, image_path, created_at")
+        .select(
+          "id, name, email, instagram_handle, locale, child_name, message, image_path, created_at",
+        )
         .order("created_at", { ascending: false });
 
       if (cancelled) {
@@ -116,7 +128,7 @@ export const InquiriesDashboard = ({ onLogout }: InquiriesDashboardProps) => {
               {inquiry.image_path && imageUrls[inquiry.image_path] && (
                 <Image
                   src={imageUrls[inquiry.image_path]}
-                  alt={`Drawing from ${inquiry.name}`}
+                  alt="Uploaded drawing"
                   w={120}
                   h={120}
                   fit="cover"
@@ -124,14 +136,42 @@ export const InquiriesDashboard = ({ onLogout }: InquiriesDashboardProps) => {
                 />
               )}
               <Stack gap={4} style={{ flex: 1 }}>
-                <Text fw={600}>{inquiry.name}</Text>
-                <Text size="sm" c="dimmed">
-                  {inquiry.email}
-                </Text>
-                {inquiry.child_name && (
-                  <Text size="sm">Child: {inquiry.child_name}</Text>
+                <Group gap="xs">
+                  {inquiry.name && (
+                    <Text fw={600} dir="auto">
+                      {inquiry.name}
+                    </Text>
+                  )}
+                  <Badge variant="light" color="pink" size="sm">
+                    {LANGUAGE_NAMES[inquiry.locale] ?? inquiry.locale}
+                  </Badge>
+                </Group>
+                {inquiry.email && (
+                  <Anchor size="sm" href={`mailto:${inquiry.email}`}>
+                    {inquiry.email}
+                  </Anchor>
                 )}
-                {inquiry.message && <Text size="sm">{inquiry.message}</Text>}
+                {inquiry.instagram_handle && (
+                  <Anchor
+                    size="sm"
+                    href={`https://www.instagram.com/${inquiry.instagram_handle}/`}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    @{inquiry.instagram_handle}
+                  </Anchor>
+                )}
+                {inquiry.child_name && (
+                  <Text size="sm" dir="auto">
+                    Name for the statue: {inquiry.child_name}
+                  </Text>
+                )}
+                {/* Messages can be Persian; let the browser pick direction. */}
+                {inquiry.message && (
+                  <Text size="sm" dir="auto">
+                    {inquiry.message}
+                  </Text>
+                )}
                 <Text size="xs" c="dimmed">
                   {new Date(inquiry.created_at).toLocaleString()}
                 </Text>

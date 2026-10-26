@@ -1,0 +1,146 @@
+{
+  "meta": {
+    "title": "Mafan Studio · De tekening van je kind als echt 3D-aandenken",
+    "description": "Wij maken van de tekening of het schilderij van je kind een echt, met de hand beschilderd 3D-aandenken. Handgemaakt in Nederland."
+  },
+  "header": {
+    "homeLabel": "Mafan Studio home",
+    "languageLabel": "Taal",
+    "instagramLabel": "Mafan Studio op Instagram"
+  },
+  "hero": {
+    "title": "Je kind tekende het. Wij maken het echt.",
+    "subtitle": "Wij maken van een kindertekening of -schilderij een met de hand beschilderd 3D-aandenken: een stukje van hun fantasie om altijd te bewaren.",
+    "ctaForm": "Stuur ons een tekening",
+    "ctaInstagram": "Stuur ons een bericht op Instagram"
+  },
+  "showcase": {
+    "title": "Van papier tot aandenken",
+    "intro": "Elk stuk begint als een echte kindertekening, en blijft daar trouw aan.",
+    "drawingLabel": "De tekening",
+    "sculptureLabel": "Het aandenken",
+    "items": {
+      "giraffe": {
+        "caption": "Een giraf, precies zoals hij getekend is",
+        "drawingAlt": "Een kindertekening van een giraf",
+        "sculptureAlt": "De met de hand beschilderde 3D-giraf, gemaakt van de tekening"
+      },
+      "rainbow-cat": {
+        "caption": "Een regenboogkat met een eenhoornhoorn",
+        "drawingAlt": "Een kindertekening van een kat in regenboogkleuren",
+        "sculptureAlt": "De met de hand beschilderde 3D-regenboogkat, gemaakt van de tekening"
+      },
+      "gecko": {
+        "caption": "Een gekko, met alle kleuren erop en eraan",
+        "drawingAlt": "Een kindertekening van een gekko",
+        "sculptureAlt": "De met de hand beschilderde 3D-gekko, gemaakt van de tekening"
+      }
+    }
+  },
+  "howItWorks": {
+    "title": "Zo werkt het",
+    "steps": [
+      {
+        "title": "Stuur ons de tekening",
+        "text": "Maak een foto van de tekening of het schilderij en stuur hem via het formulier hieronder of via Instagram."
+      },
+      {
+        "title": "Wij maken er een 3D-model van",
+        "text": "We zetten de tekening om in 3D en houden elke wiebelige lijn die hem zo eigen maakt."
+      },
+      {
+        "title": "Wij printen en werken het af",
+        "text": "Het model wordt geprint en daarna met de hand geschuurd en afgewerkt."
+      },
+      {
+        "title": "Wij beschilderen het met de hand",
+        "text": "Elk stuk wordt met de hand beschilderd in de kleuren van de originele tekening."
+      },
+      {
+        "title": "Je aandenken komt eraan",
+        "text": "We pakken het zorgvuldig in en bezorgen het bij jou."
+      }
+    ],
+    "timing": "Het maken van een aandenken duurt ongeveer 3 weken."
+  },
+  "about": {
+    "title": "Over Mafan Studio",
+    "paragraphs": [
+      "Mafan Studio is een kleine creatieve studio in Hoorn. Wij maken van kindertekeningen echte voorwerpen die je kunt vasthouden.",
+      "Elk stuk wordt één voor één gemaakt: in 3D vormgegeven, geprint en daarna met de hand afgewerkt en beschilderd.",
+      "We \"verbeteren\" de tekening niet. De charme zit in de details die alleen jouw kind zo tekent, en die houden we."
+    ]
+  },
+  "instagram": {
+    "title": "Vers uit onze studio",
+    "follow": "Volg ons op Instagram",
+    "postAlt": "Een aandenken van Mafan Studio op Instagram",
+    "videoLabel": "Video"
+  },
+  "faq": {
+    "title": "Vragen",
+    "items": [
+      {
+        "question": "Wat voor tekeningen zijn geschikt?",
+        "answer": "Bijna alles! Dieren, mensen, monsters, verzonnen wezens. Een duidelijke foto van de tekening is genoeg. Is iets onduidelijk, dan vragen we het je."
+      },
+      {
+        "question": "Hoe lang duurt het?",
+        "answer": "Ongeveer 3 weken vanaf het moment dat we je aandenken samen hebben afgesproken."
+      },
+      {
+        "question": "Wat kost het?",
+        "answer": "Elk stuk is uniek, dus je krijgt een persoonlijke prijs zodra we de tekening hebben gezien. Insturen is gratis en vrijblijvend."
+      },
+      {
+        "question": "Waar bezorgen jullie?",
+        "answer": "Overal in Nederland. Woon je elders in de EU? Vraag het ons, dan kijken we wat er mogelijk is."
+      },
+      {
+        "question": "Kunnen jullie de naam van mijn kind toevoegen?",
+        "answer": "Ja. Laat ons gewoon weten welke naam je onder het beeldje wilt."
+      }
+    ]
+  },
+  "contact": {
+    "title": "Laten we samen iets moois maken",
+    "intro": "Kies wat voor jou het makkelijkst is.",
+    "dmTitle": "Stuur ons een bericht op Instagram",
+    "dmText": "Stuur ons een foto van de tekening in een privébericht, dan bespreken we het verder.",
+    "dmCta": "Open Instagram",
+    "formTitle": "Of stuur hem hier"
+  },
+  "form": {
+    "drawingLabel": "Foto van de tekening",
+    "drawingPlaceholder": "Upload een foto of scan",
+    "previewAlt": "Voorbeeld van de geüploade tekening",
+    "contactHint": "Geef ons een e-mailadres of Instagram-naam (of allebei), zodat we kunnen reageren.",
+    "emailLabel": "E-mail",
+    "instagramLabel": "Instagram-naam",
+    "instagramPlaceholder": "@jouwnaam",
+    "nameLabel": "Je naam (optioneel)",
+    "childNameLabel": "Naam onder het beeldje (optioneel)",
+    "childNameHint": "We kunnen de naam van je kind op de voet zetten.",
+    "messageLabel": "Vertel ons over de tekening (optioneel)",
+    "messagePlaceholder": "Bijv. graag de roze jurk en de gele kroon houden.",
+    "privacy": "We gebruiken je tekening en contactgegevens alleen om je aandenken te maken en met je te bespreken.",
+    "submit": "Tekening versturen",
+    "successTitle": "We hebben je tekening ontvangen!",
+    "successText": "We bekijken hem en laten je snel een persoonlijke prijs weten.",
+    "errorTitle": "Er ging iets mis",
+    "errors": {
+      "contact_required": "Geef ons een e-mailadres of Instagram-naam, zodat we kunnen reageren.",
+      "invalid_email": "Vul een geldig e-mailadres in.",
+      "invalid_instagram": "Vul een geldige Instagram-naam in (letters, cijfers, punten en underscores).",
+      "field_too_long": "Een van de velden is te lang. Maak het iets korter.",
+      "image_required": "Upload een foto van de tekening.",
+      "image_type": "Upload een JPEG-, PNG-, WEBP- of HEIC-afbeelding.",
+      "image_too_large": "De afbeelding moet kleiner zijn dan 8 MB.",
+      "rate_limited": "Je hebt in korte tijd meerdere tekeningen gestuurd. Probeer het over een tijdje opnieuw.",
+      "server_error": "Probeer het opnieuw, of stuur ons een bericht op Instagram."
+    }
+  },
+  "footer": {
+    "rights": "Mafan Studio · Handgemaakt in Nederland"
+  }
+}

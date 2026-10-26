@@ -2,7 +2,16 @@ import { randomUUID } from "node:crypto";
 import { NextResponse } from "next/server";
 import {
   ALLOWED_INQUIRY_IMAGE_TYPES,
+  DEFAULT_LOCALE,
+  MAX_INQUIRY_EMAIL_LENGTH,
   MAX_INQUIRY_IMAGE_BYTES,
+  MAX_INQUIRY_MESSAGE_LENGTH,
+  MAX_INQUIRY_NAME_LENGTH,
+  isLocale,
+  isValidEmail,
+  isValidInstagramHandle,
+  normalizeInstagramHandle,
+  type InquiryErrorCode,
 } from "@mafan/types";
 import { supabaseAdmin } from "@/lib/supabaseAdmin";
 
@@ -19,6 +28,16 @@ const getClientIp = (request: Request): string => {
 
 const sanitizeFileName = (name: string) =>
   name.replace(/[^a-zA-Z0-9_.-]/g, "_").slice(-100);
+
+// Errors are language-neutral codes; the form shows them translated.
+const fail = (error: InquiryErrorCode, status: number) =>
+  NextResponse.json({ error }, { status });
+
+// Empty or missing optional fields become undefined (stored as null).
+const optionalText = (formData: FormData, field: string) => {
+  const value = formData.get(field);
+  return typeof value === "string" && value.trim() ? value.trim() : undefined;
+};
 
 export async function POST(request: Request) {
   const formData = await request.formData();
@@ -42,49 +61,49 @@ export async function POST(request: Request) {
   if (rateLimitError) {
     console.error("Failed to check rate limit", rateLimitError);
   } else if ((count ?? 0) >= RATE_LIMIT_MAX_SUBMISSIONS) {
-    return NextResponse.json(
-      { error: "Too many requests. Please try again later." },
-      { status: 429 },
-    );
+    return fail("rate_limited", 429);
   }
 
-  const name = formData.get("name");
-  const email = formData.get("email");
-  const childName = formData.get("childName");
-  const message = formData.get("message");
+  const name = optionalText(formData, "name");
+  const email = optionalText(formData, "email");
+  const rawInstagramHandle = optionalText(formData, "instagramHandle");
+  const childName = optionalText(formData, "childName");
+  const message = optionalText(formData, "message");
+  const rawLocale = formData.get("locale");
+  const locale = isLocale(rawLocale) ? rawLocale : DEFAULT_LOCALE;
   const image = formData.get("image");
 
+  if (!email && !rawInstagramHandle) {
+    return fail("contact_required", 400);
+  }
+
   if (
-    typeof name !== "string" ||
-    typeof email !== "string" ||
-    !name ||
-    !email
+    (name?.length ?? 0) > MAX_INQUIRY_NAME_LENGTH ||
+    (childName?.length ?? 0) > MAX_INQUIRY_NAME_LENGTH ||
+    (email?.length ?? 0) > MAX_INQUIRY_EMAIL_LENGTH ||
+    (message?.length ?? 0) > MAX_INQUIRY_MESSAGE_LENGTH
   ) {
-    return NextResponse.json(
-      { error: "Name and email are required" },
-      { status: 400 },
-    );
+    return fail("field_too_long", 400);
+  }
+
+  if (email && !isValidEmail(email)) {
+    return fail("invalid_email", 400);
+  }
+
+  if (rawInstagramHandle && !isValidInstagramHandle(rawInstagramHandle)) {
+    return fail("invalid_instagram", 400);
   }
 
   if (!(image instanceof File) || image.size === 0) {
-    return NextResponse.json(
-      { error: "A photo of the drawing is required" },
-      { status: 400 },
-    );
+    return fail("image_required", 400);
   }
 
   if (!ALLOWED_INQUIRY_IMAGE_TYPES.includes(image.type as never)) {
-    return NextResponse.json(
-      { error: "Please upload a JPEG, PNG, WEBP, or HEIC image" },
-      { status: 400 },
-    );
+    return fail("image_type", 400);
   }
 
   if (image.size > MAX_INQUIRY_IMAGE_BYTES) {
-    return NextResponse.json(
-      { error: "Image must be smaller than 8MB" },
-      { status: 400 },
-    );
+    return fail("image_too_large", 400);
   }
 
   const imagePath = `${randomUUID()}-${sanitizeFileName(image.name)}`;
@@ -96,27 +115,25 @@ export async function POST(request: Request) {
 
   if (uploadError) {
     console.error("Failed to upload inquiry image", uploadError);
-    return NextResponse.json(
-      { error: "Failed to upload image" },
-      { status: 500 },
-    );
+    return fail("server_error", 500);
   }
 
   const { error } = await supabaseAdmin.from("inquiries").insert({
     name,
     email,
-    child_name: typeof childName === "string" ? childName : undefined,
-    message: typeof message === "string" ? message : undefined,
+    instagram_handle: rawInstagramHandle
+      ? normalizeInstagramHandle(rawInstagramHandle)
+      : undefined,
+    child_name: childName,
+    message,
     image_path: imagePath,
     ip_address: ip,
+    locale,
   });
 
   if (error) {
     console.error("Failed to store inquiry", error);
-    return NextResponse.json(
-      { error: "Failed to store inquiry" },
-      { status: 500 },
-    );
+    return fail("server_error", 500);
   }
 
   return NextResponse.json({ ok: true });

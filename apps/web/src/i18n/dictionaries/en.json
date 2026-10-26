@@ -1,0 +1,146 @@
+{
+  "meta": {
+    "title": "Mafan Studio · Your child's drawing as a real 3D keepsake",
+    "description": "We turn your child's drawing or painting into a real, hand-painted 3D keepsake. Made by hand in the Netherlands."
+  },
+  "header": {
+    "homeLabel": "Mafan Studio home",
+    "languageLabel": "Language",
+    "instagramLabel": "Mafan Studio on Instagram"
+  },
+  "hero": {
+    "title": "Your child drew it. We make it real.",
+    "subtitle": "We turn a child's drawing or painting into a hand-painted 3D keepsake, a little piece of their imagination to keep forever.",
+    "ctaForm": "Send us a drawing",
+    "ctaInstagram": "Message us on Instagram"
+  },
+  "showcase": {
+    "title": "From paper to keepsake",
+    "intro": "Every piece starts as a real child's drawing, and stays true to it.",
+    "drawingLabel": "The drawing",
+    "sculptureLabel": "The keepsake",
+    "items": {
+      "giraffe": {
+        "caption": "A giraffe, just as it was drawn",
+        "drawingAlt": "A child's drawing of a giraffe",
+        "sculptureAlt": "The hand-painted 3D giraffe made from the drawing"
+      },
+      "rainbow-cat": {
+        "caption": "A rainbow cat with a unicorn horn",
+        "drawingAlt": "A child's drawing of a rainbow-coloured cat",
+        "sculptureAlt": "The hand-painted 3D rainbow cat made from the drawing"
+      },
+      "gecko": {
+        "caption": "A gecko, colours and all",
+        "drawingAlt": "A child's drawing of a gecko",
+        "sculptureAlt": "The hand-painted 3D gecko made from the drawing"
+      }
+    }
+  },
+  "howItWorks": {
+    "title": "How it works",
+    "steps": [
+      {
+        "title": "Send us the drawing",
+        "text": "Take a photo of the drawing or painting and send it through the form below or on Instagram."
+      },
+      {
+        "title": "We shape it in 3D",
+        "text": "We turn the drawing into a 3D model, keeping every wobbly line that makes it theirs."
+      },
+      {
+        "title": "We print and finish it",
+        "text": "The model is printed and then carefully sanded and finished by hand."
+      },
+      {
+        "title": "We paint it by hand",
+        "text": "Each piece is hand-painted to match the colours of the original drawing."
+      },
+      {
+        "title": "Your keepsake arrives",
+        "text": "We pack it with care and deliver it to you."
+      }
+    ],
+    "timing": "Making a keepsake takes about 3 weeks."
+  },
+  "about": {
+    "title": "About Mafan Studio",
+    "paragraphs": [
+      "Mafan Studio is a small creative studio in Hoorn, the Netherlands. We take children's drawings and turn them into real objects you can hold.",
+      "Every piece is made one at a time: shaped in 3D, printed, then finished and painted by hand.",
+      "We don't \"improve\" the drawing. The charm is in the details only your child would draw, so we keep them."
+    ]
+  },
+  "instagram": {
+    "title": "Fresh from our studio",
+    "follow": "Follow us on Instagram",
+    "postAlt": "A Mafan Studio keepsake on Instagram",
+    "videoLabel": "Video"
+  },
+  "faq": {
+    "title": "Questions",
+    "items": [
+      {
+        "question": "What kind of drawings work?",
+        "answer": "Almost any! Animals, people, monsters, made-up creatures. A clear photo of the drawing is all we need. If something is unclear, we'll ask."
+      },
+      {
+        "question": "How long does it take?",
+        "answer": "About 3 weeks from the moment we agree on your keepsake."
+      },
+      {
+        "question": "How much does it cost?",
+        "answer": "Every piece is unique, so we give you a personal price once we've seen the drawing. Sending it to us is free and without obligation."
+      },
+      {
+        "question": "Where do you deliver?",
+        "answer": "Anywhere in the Netherlands. Living elsewhere in the EU? Ask us and we'll see what's possible."
+      },
+      {
+        "question": "Can you add my child's name?",
+        "answer": "Yes. Just tell us the name you'd like under the statue."
+      }
+    ]
+  },
+  "contact": {
+    "title": "Let's make something together",
+    "intro": "Choose whatever is easiest for you.",
+    "dmTitle": "Message us on Instagram",
+    "dmText": "Send us a photo of the drawing in a direct message and we'll chat from there.",
+    "dmCta": "Open Instagram",
+    "formTitle": "Or send it here"
+  },
+  "form": {
+    "drawingLabel": "Photo of the drawing",
+    "drawingPlaceholder": "Upload a photo or scan",
+    "previewAlt": "Preview of the uploaded drawing",
+    "contactHint": "Give us an email or an Instagram handle (or both) so we can reply.",
+    "emailLabel": "Email",
+    "instagramLabel": "Instagram handle",
+    "instagramPlaceholder": "@yourname",
+    "nameLabel": "Your name (optional)",
+    "childNameLabel": "Name for under the statue (optional)",
+    "childNameHint": "We can add your child's name to the base.",
+    "messageLabel": "Tell us about the drawing (optional)",
+    "messagePlaceholder": "e.g. Please keep the pink dress and the yellow crown.",
+    "privacy": "We only use your drawing and contact details to make and discuss your keepsake.",
+    "submit": "Send drawing",
+    "successTitle": "We've received your drawing!",
+    "successText": "We'll take a look and get back to you soon with a personal quote.",
+    "errorTitle": "Something went wrong",
+    "errors": {
+      "contact_required": "Please give us an email or an Instagram handle so we can reply.",
+      "invalid_email": "Please enter a valid email.",
+      "invalid_instagram": "Please enter a valid Instagram handle (letters, numbers, dots and underscores).",
+      "field_too_long": "One of the fields is too long. Please shorten it.",
+      "image_required": "Please upload a photo of the drawing.",
+      "image_type": "Please upload a JPEG, PNG, WEBP or HEIC image.",
+      "image_too_large": "The image must be smaller than 8 MB.",
+      "rate_limited": "You've sent several drawings in a short time. Please try again in a little while.",
+      "server_error": "Please try again, or message us on Instagram."
+    }
+  },
+  "footer": {
+    "rights": "Mafan Studio · Handmade in the Netherlands"
+  }
+}
