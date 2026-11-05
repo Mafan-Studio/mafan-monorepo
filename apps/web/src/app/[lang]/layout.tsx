@@ -21,6 +21,7 @@ import "@mafan/ui/global.css";
 import { SUPPORTED_LOCALES, isLocale } from "@mafan/types";
 import { theme } from "@/theme";
 import { EmotionRegistry } from "@/lib/EmotionRegistry";
+import { CookieConsent } from "@/components/CookieConsent";
 import { getDictionary } from "@/i18n/getDictionary";
 import { getDirection } from "@/i18n/locales";
 import { SITE_URL } from "@/content/site";
@@ -75,6 +76,11 @@ export default async function RootLayout({
           <DirectionProvider initialDirection={dir} detectDirection={false}>
             <MantineProvider theme={theme} defaultColorScheme="light">
               {children}
+              <CookieConsent
+                lang={lang}
+                strings={getDictionary(lang).cookies}
+                loadAnalytics={process.env.VERCEL_ENV === "production"}
+              />
             </MantineProvider>
           </DirectionProvider>
         </EmotionRegistry>

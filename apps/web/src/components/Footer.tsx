@@ -10,6 +10,7 @@ import {
   type LegalDetails,
 } from "@/content/site";
 import type { Dictionary } from "@/i18n/getDictionary";
+import { openCookieSettings } from "@/lib/consent";
 
 const Bar = styled.footer`
   background: ${colors.neutral.ink};
@@ -78,6 +79,15 @@ export const Footer = ({ lang, legal, strings }: FooterProps) => {
               size="sm"
             >
               {strings.privacyLink}
+            </Anchor>
+            <Anchor
+              component="button"
+              type="button"
+              onClick={openCookieSettings}
+              c={colors.neutral.warmWhite}
+              size="sm"
+            >
+              {strings.cookieSettings}
             </Anchor>
           </Group>
         </Group>

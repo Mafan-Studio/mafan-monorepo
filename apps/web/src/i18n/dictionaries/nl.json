@@ -178,11 +178,19 @@
     "creditsTitle": "Fotoverantwoording",
     "privacyLink": "Privacyverklaring",
     "kvkLabel": "KvK",
-    "btwLabel": "Btw-id"
+    "btwLabel": "Btw-id",
+    "cookieSettings": "Cookie-instellingen"
+  },
+  "cookies": {
+    "title": "Cookies",
+    "message": "We willen graag cookies van Google Analytics gebruiken om te zien hoeveel mensen de site bezoeken en welke pagina's ze lezen. We plaatsen ze alleen als je akkoord gaat, en je kunt je keuze altijd wijzigen via \"Cookie-instellingen\" onderaan de pagina.",
+    "privacyLink": "Privacyverklaring",
+    "accept": "Accepteren",
+    "decline": "Weigeren"
   },
   "privacy": {
     "title": "Privacyverklaring",
-    "updated": "Laatst bijgewerkt: 26 oktober 2026",
+    "updated": "Laatst bijgewerkt: 5 november 2026",
     "intro": "Mafan Studio (\"wij\") maakt van kindertekeningen 3D-aandenkens. In deze verklaring lees je welke persoonsgegevens we via deze website verzamelen, waarom we dat doen en welke rechten je hebt.",
     "back": "Terug naar de homepage",
     "sections": [
@@ -204,6 +212,7 @@
         "paragraphs": [
           "We gebruiken je tekening en gegevens om je aanvraag te bekijken, je te laten weten wat er mogelijk is en wat het kost, je aandenken te maken en met je over je bestelling te communiceren. Dat doen we omdat jij ons daarom vraagt (stappen op jouw verzoek voorafgaand aan een overeenkomst, AVG artikel 6 lid 1 sub b).",
           "Je IP-adres gebruiken we alleen om het formulier tegen spam te beschermen, door te beperken hoeveel aanvragen er in korte tijd verstuurd kunnen worden. Dat is ons gerechtvaardigd belang (AVG artikel 6 lid 1 sub f).",
+          "Als je analytische cookies accepteert, gebruiken we Google Analytics om bezoeken te tellen en te zien welke pagina's gelezen worden, zodat we de website kunnen verbeteren. Dat doen we alleen met jouw toestemming (AVG artikel 6 lid 1 sub a), en je kunt die altijd intrekken via \"Cookie-instellingen\" onderaan elke pagina.",
           "We gebruiken je gegevens niet voor reclame en verkopen ze nooit."
         ]
       },
@@ -216,13 +225,13 @@
       {
         "heading": "Wie ons helpen",
         "paragraphs": [
-          "Onze website wordt gehost door Vercel, en aanvragen en tekeningen worden opgeslagen bij Supabase. Zij verwerken gegevens alleen in onze opdracht en volgens onze instructies. Als gegevens buiten de Europese Unie worden verwerkt, gebeurt dat met waarborgen zoals de EU-modelcontractbepalingen."
+          "Onze website wordt gehost door Vercel, en aanvragen en tekeningen worden opgeslagen bij Supabase. Als je analytische cookies accepteert, ontvangt ook Google (Google Analytics) gegevens over je bezoek, zoals de pagina's die je bekijkt, je browser en apparaat en een globale locatie op basis van je IP-adres. Zij verwerken gegevens alleen in onze opdracht en volgens onze instructies. Als gegevens buiten de Europese Unie worden verwerkt, gebeurt dat met waarborgen zoals de EU-modelcontractbepalingen of het EU-VS-gegevensprivacykader."
         ]
       },
       {
         "heading": "Cookies",
         "paragraphs": [
-          "We plaatsen één functionele cookie, NEXT_LOCALE, die een jaar lang onthoudt welke taal je hebt gekozen. We gebruiken geen analytische, advertentie- of trackingcookies en hoeven daarom geen toestemming te vragen."
+          "We plaatsen één functionele cookie, NEXT_LOCALE, die een jaar lang onthoudt welke taal je hebt gekozen, en één cookie, mafan_analytics_consent, die een jaar lang onthoudt wat je op de cookievraag hebt geantwoord. Hiervoor is geen toestemming nodig. Alleen als je op \"Accepteren\" klikt, plaatsen we ook cookies van Google Analytics (_ga en _ga_<ID>). Die worden maximaal twee jaar bewaard en laten ons terugkerende bezoekers herkennen. We gebruiken geen advertentiecookies. Je kunt je keuze altijd wijzigen via \"Cookie-instellingen\" onderaan de pagina; als je je toestemming intrekt, verwijderen we de cookies van Google Analytics."
         ]
       },
       {
