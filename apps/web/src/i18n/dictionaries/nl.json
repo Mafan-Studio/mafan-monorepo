@@ -212,7 +212,7 @@
         "paragraphs": [
           "We gebruiken je tekening en gegevens om je aanvraag te bekijken, je te laten weten wat er mogelijk is en wat het kost, je aandenken te maken en met je over je bestelling te communiceren. Dat doen we omdat jij ons daarom vraagt (stappen op jouw verzoek voorafgaand aan een overeenkomst, AVG artikel 6 lid 1 sub b).",
           "Je IP-adres gebruiken we alleen om het formulier tegen spam te beschermen, door te beperken hoeveel aanvragen er in korte tijd verstuurd kunnen worden. Dat is ons gerechtvaardigd belang (AVG artikel 6 lid 1 sub f).",
-          "Als je analytische cookies accepteert, gebruiken we Google Analytics om bezoeken te tellen en te zien welke pagina's gelezen worden, zodat we de website kunnen verbeteren. Dat doen we alleen met jouw toestemming (AVG artikel 6 lid 1 sub a), en je kunt die altijd intrekken via \"Cookie-instellingen\" onderaan elke pagina.",
+          "Als je analytische cookies accepteert, gebruiken we Google Analytics om bezoeken te tellen en te zien welke pagina's gelezen worden, zodat we de website kunnen verbeteren. Dat doen we alleen met jouw toestemming (AVG artikel 6 lid 1 sub a), en je kunt die altijd intrekken via \"Cookie-instellingen\" onderaan elke pagina. Voordat je kiest, of als je weigert, ontvangt Google Analytics bij het bekijken van een pagina nog wel een basissignaal zonder cookies of identificatoren, waarmee Google het totale aantal bezoeken schat. Dat is ons gerechtvaardigd belang om globaal te weten hoe de website wordt gebruikt (AVG artikel 6 lid 1 sub f).",
           "We gebruiken je gegevens niet voor reclame en verkopen ze nooit."
         ]
       },
@@ -225,7 +225,7 @@
       {
         "heading": "Wie ons helpen",
         "paragraphs": [
-          "Onze website wordt gehost door Vercel, en aanvragen en tekeningen worden opgeslagen bij Supabase. Als je analytische cookies accepteert, ontvangt ook Google (Google Analytics) gegevens over je bezoek, zoals de pagina's die je bekijkt, je browser en apparaat en een globale locatie op basis van je IP-adres. Zij verwerken gegevens alleen in onze opdracht en volgens onze instructies. Als gegevens buiten de Europese Unie worden verwerkt, gebeurt dat met waarborgen zoals de EU-modelcontractbepalingen of het EU-VS-gegevensprivacykader."
+          "Onze website wordt gehost door Vercel, en aanvragen en tekeningen worden opgeslagen bij Supabase. Ook Google (Google Analytics) ontvangt gegevens over je bezoek, zoals de pagina's die je bekijkt, je browser en apparaat en een globale locatie op basis van je IP-adres; zonder jouw toestemming gebeurt dat zonder cookies of identificatoren. Zij verwerken gegevens alleen in onze opdracht en volgens onze instructies. Als gegevens buiten de Europese Unie worden verwerkt, gebeurt dat met waarborgen zoals de EU-modelcontractbepalingen of het EU-VS-gegevensprivacykader."
         ]
       },
       {

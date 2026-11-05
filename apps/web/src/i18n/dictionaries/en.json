@@ -212,7 +212,7 @@
         "paragraphs": [
           "We use your drawing and details to review your request, tell you what is possible and the price, make your keepsake and talk with you about your order. We do this because you asked us to (taking steps at your request before an agreement, GDPR article 6(1)(b)).",
           "We use your IP address only to protect the form against spam, by limiting how many requests can be sent in a short time. This is our legitimate interest (GDPR article 6(1)(f)).",
-          "If you accept analytics cookies, we use Google Analytics to count visits and see which pages are read, so we can improve the website. We only do this with your consent (GDPR article 6(1)(a)), and you can withdraw it at any time via \"Cookie settings\" at the bottom of every page.",
+          "If you accept analytics cookies, we use Google Analytics to count visits and see which pages are read, so we can improve the website. We only do this with your consent (GDPR article 6(1)(a)), and you can withdraw it at any time via \"Cookie settings\" at the bottom of every page. Before you choose, or if you decline, Google Analytics still receives a basic signal without cookies or identifiers when a page is viewed, which Google uses to estimate total visits. This is our legitimate interest in knowing roughly how the website is used (GDPR article 6(1)(f)).",
           "We do not use your data for advertising, and we never sell it."
         ]
       },
@@ -225,7 +225,7 @@
       {
         "heading": "Who helps us",
         "paragraphs": [
-          "Our website is hosted by Vercel, and form submissions and drawings are stored with Supabase. If you accept analytics cookies, Google (Google Analytics) also receives information about your visit, such as the pages you view, your browser and device, and an approximate location based on your IP address. They process data only on our behalf and under our instructions. Where data is processed outside the European Union, this happens with safeguards such as the EU Standard Contractual Clauses or the EU–US Data Privacy Framework."
+          "Our website is hosted by Vercel, and form submissions and drawings are stored with Supabase. Google (Google Analytics) also receives information about your visit, such as the pages you view, your browser and device, and an approximate location based on your IP address; without your consent this happens without cookies or identifiers. They process data only on our behalf and under our instructions. Where data is processed outside the European Union, this happens with safeguards such as the EU Standard Contractual Clauses or the EU–US Data Privacy Framework."
         ]
       },
       {

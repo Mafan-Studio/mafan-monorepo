@@ -7,6 +7,7 @@ import { Anchor, Button, Group, Text } from "@mantine/core";
 import { colors, spacing } from "@mafan/tokens";
 import type { Locale } from "@mafan/types";
 import {
+  ANALYTICS_CONSENT_COOKIE,
   OPEN_COOKIE_SETTINGS_EVENT,
   clearGoogleAnalyticsCookies,
   readAnalyticsConsent,
@@ -16,6 +17,18 @@ import {
 import type { Dictionary } from "@/i18n/getDictionary";
 
 export const GA_MEASUREMENT_ID = "G-J4CN8W0G52";
+
+declare global {
+  interface Window {
+    gtag?: (...args: unknown[]) => void;
+  }
+}
+
+// Advertising storage stays denied whatever the answer; only analytics
+// follows the visitor's choice.
+const updateAnalyticsStorage = (consent: AnalyticsConsent) => {
+  window.gtag?.("consent", "update", { analytics_storage: consent });
+};
 
 const Banner = styled.section`
   position: fixed;
@@ -64,35 +77,39 @@ export const CookieConsent = ({
   const choose = (choice: AnalyticsConsent) => {
     saveAnalyticsConsent(choice);
     setOpen(false);
+    updateAnalyticsStorage(choice);
     if (consent === "granted" && choice === "denied") {
-      // gtag.js is already running; a reload is the only way to stop it.
       clearGoogleAnalyticsCookies();
-      window.location.reload();
-      return;
     }
     setConsent(choice);
   };
 
   return (
     <>
-      {loadAnalytics && consent === "granted" && (
+      {/* Advanced Consent Mode: the tag is always on the page, but sets no
+          cookies until the visitor accepts. A saved answer is applied
+          before the first page view is sent. */}
+      {loadAnalytics && (
         <>
-          <Script
-            src={`https://www.googletagmanager.com/gtag/js?id=${GA_MEASUREMENT_ID}`}
-            strategy="afterInteractive"
-          />
           <Script id="google-analytics" strategy="afterInteractive">
             {`window.dataLayer = window.dataLayer || [];
 function gtag(){dataLayer.push(arguments);}
 gtag('consent', 'default', {
-  analytics_storage: 'granted',
+  analytics_storage: 'denied',
   ad_storage: 'denied',
   ad_user_data: 'denied',
   ad_personalization: 'denied'
 });
+if (document.cookie.split('; ').indexOf('${ANALYTICS_CONSENT_COOKIE}=granted') !== -1) {
+  gtag('consent', 'update', { analytics_storage: 'granted' });
+}
 gtag('js', new Date());
 gtag('config', '${GA_MEASUREMENT_ID}');`}
           </Script>
+          <Script
+            src={`https://www.googletagmanager.com/gtag/js?id=${GA_MEASUREMENT_ID}`}
+            strategy="afterInteractive"
+          />
         </>
       )}
       {open && (
