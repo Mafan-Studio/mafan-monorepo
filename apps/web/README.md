@@ -30,6 +30,26 @@ pnpm test:e2e                      # browser tests (Playwright)
   (`padding-inline`, `margin-inline-start`, `inset-inline-end`, …) instead of
   `left`/`right` in styles so layouts mirror correctly.
 
+## Analytics and cookie consent
+
+Google Analytics (`G-J4CN8W0G52`) runs in Google's Advanced Consent Mode,
+set up in `src/components/CookieConsent.tsx` and `src/lib/consent.ts`:
+
+- On every page the tag loads with all consent types denied, so Google
+  receives only cookieless pings and sets no cookies.
+- A banner (copy in the dictionaries under `cookies`) asks first-time
+  visitors. Accept grants `analytics_storage` only; the advertising types
+  stay denied because the privacy statement promises no advertising use.
+- The answer is kept for a year in the `mafan_analytics_consent` cookie and
+  applied before the first page view on later visits. The footer's
+  "Cookie settings" link reopens the banner; declining after accepting
+  deletes the `_ga` cookies.
+- GA only loads when `VERCEL_ENV` is `production`. Previews and local dev
+  show the banner but send nothing to Google.
+
+If you change what is collected or which consent types are granted, update
+the privacy statement (`privacy` in all three dictionaries) too.
+
 ## Showcase pairs
 
 The drawing → keepsake pairs are listed in `src/content/showcase.ts`, with
