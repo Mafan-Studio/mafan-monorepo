@@ -178,11 +178,19 @@
     "creditsTitle": "Photo credits",
     "privacyLink": "Privacy statement",
     "kvkLabel": "KvK",
-    "btwLabel": "BTW-id"
+    "btwLabel": "BTW-id",
+    "cookieSettings": "Cookie settings"
+  },
+  "cookies": {
+    "title": "Cookies",
+    "message": "We'd like to use Google Analytics cookies to see how many people visit and which pages they read. We only set them if you agree, and you can change your mind any time via \"Cookie settings\" at the bottom of the page.",
+    "privacyLink": "Privacy statement",
+    "accept": "Accept",
+    "decline": "Decline"
   },
   "privacy": {
     "title": "Privacy statement",
-    "updated": "Last updated: 26 October 2026",
+    "updated": "Last updated: 5 November 2026",
     "intro": "Mafan Studio (\"we\") turns children's drawings into 3D keepsakes. This statement explains what personal data we collect through this website, why we collect it, and what your rights are.",
     "back": "Back to the home page",
     "sections": [
@@ -204,6 +212,7 @@
         "paragraphs": [
           "We use your drawing and details to review your request, tell you what is possible and the price, make your keepsake and talk with you about your order. We do this because you asked us to (taking steps at your request before an agreement, GDPR article 6(1)(b)).",
           "We use your IP address only to protect the form against spam, by limiting how many requests can be sent in a short time. This is our legitimate interest (GDPR article 6(1)(f)).",
+          "If you accept analytics cookies, we use Google Analytics to count visits and see which pages are read, so we can improve the website. We only do this with your consent (GDPR article 6(1)(a)), and you can withdraw it at any time via \"Cookie settings\" at the bottom of every page.",
           "We do not use your data for advertising, and we never sell it."
         ]
       },
@@ -216,13 +225,13 @@
       {
         "heading": "Who helps us",
         "paragraphs": [
-          "Our website is hosted by Vercel, and form submissions and drawings are stored with Supabase. They process data only on our behalf and under our instructions. Where data is processed outside the European Union, this happens with safeguards such as the EU Standard Contractual Clauses."
+          "Our website is hosted by Vercel, and form submissions and drawings are stored with Supabase. If you accept analytics cookies, Google (Google Analytics) also receives information about your visit, such as the pages you view, your browser and device, and an approximate location based on your IP address. They process data only on our behalf and under our instructions. Where data is processed outside the European Union, this happens with safeguards such as the EU Standard Contractual Clauses or the EU–US Data Privacy Framework."
         ]
       },
       {
         "heading": "Cookies",
         "paragraphs": [
-          "We place one functional cookie, NEXT_LOCALE, which remembers the language you chose for one year. We do not use analytics, advertising or tracking cookies, so we do not need to ask for your consent."
+          "We place one functional cookie, NEXT_LOCALE, which remembers the language you chose for one year, and one called mafan_analytics_consent, which remembers your answer to the cookie question for one year. These do not need your consent. Only if you click \"Accept\" do we also place Google Analytics cookies (_ga and _ga_<ID>), which are kept for up to two years and let us recognise returning visitors. We do not use advertising cookies. You can change your choice any time via \"Cookie settings\" at the bottom of the page; if you withdraw consent, we delete the Google Analytics cookies."
         ]
       },
       {
